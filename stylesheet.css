@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(to bottom, pink, white);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.coracao{
+    font-size: 10rem;
+    animation: coracao .5s infinite alternate linear;
+}
+
+@keyframes coracao {
+    from {
+        transform: scale(.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+body {
+    
+}
+
